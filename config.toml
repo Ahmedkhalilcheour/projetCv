@@ -52,12 +52,11 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-
   # Details for the Contact Widget
   email = "ahmedcheour@gmail.com"
-  address = "soukra imem 3 Tunis"
+  address = " Soukra Tunis"
   office_hours = """
-  
+   
   """
   phone = "23 717 011"
   skype = ""
@@ -65,7 +64,8 @@ enableGitInfo = false
   keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
-   
+  appointment_url = ""
+
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
   #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
@@ -85,7 +85,12 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
- 
+  map = 0
+  map_api_key = ""
+  latitude = "37.4275"
+  longitude = "-122.1697"
+  zoom = 15
+
   # SITE SETUP
 
   # Color theme.
@@ -298,10 +303,7 @@ enableGitInfo = false
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-    name = "CV"
-    link_url = "./Users/asus/Desktop/projetCv/static/files "
-    weight = 7
+ 
 
 # Search.
 [params.search]

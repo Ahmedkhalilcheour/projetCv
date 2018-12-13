@@ -1,0 +1,70 @@
+---
+title: "Mark"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+ oui
+
+```{r cars , echo=FALSE}
+ library(haven)
+Matable <- read_sav("/Users/asus/Desktop/Projet R/merged_r5_data.sav")
+
+View(Matable)
+ 
+library(ggplot2)
+newdata <- Matable[order(Matable$COUNTRY),]
+newdata2 <- Matable[(Matable$COUNTRY)==32,]
+#______________
+q3<-table(Matable$Q73D_ARB)
+q3<-data.frame(q3)
+q3=as.data.frame(q3)
+str(q3)
+q3
+Réponses<-c("Missing","Strongly Disagree","Disagree","Neither Agree nor Disagree","Agree","Strongly Agree","Don‟t know")
+bp<- ggplot(q3, aes(x="", y=q3$Freq , fill = Réponses))+
+  geom_bar(width = 1, stat = "identity")
+bp
+pie <- bp +coord_polar("y", start=0)
+pie
+#_________________
+#en tunisie 
+q2<-table(newdata2$Q73C_ARB)
+q2
+q2<-data.frame(q2)
+q2=as.data.frame(q2)
+str(q2)
+var2<-c("Strongly Disagree","Disagree","Neither Agree nor Disagree","Agree","Strongly Agree","Don‟t know")
+bp<- ggplot(q2, aes(x=var2, y=q2$Freq ,fill=var2))+
+  geom_bar(stat="identity", fill="pink3")+
+  theme(axis.text.x = element_text(angle=65,vjust=0.6))+labs(x="les réponses des habitants", y="Fréquence ", title="L'inegalité de l'héritage en Tunisie")
+bp
+#____________
+#dans le monde pie 3D
+library(plotrix)
+d4<-table(Matable$Q56C)
+d4<-data.frame(d4)
+str(d4)
+var4<-c("Missing","Never","Rarely","Often","Always","Don‟t know")
+d4
+var6<-c("","","","","","")
+
+pie3D(d4$Freq,labels=var6,explode=0.1,
+      main="Combien de fois les femmes sont-elles \n traitées de manière inégale par \n les chefs traditionnels?")
+par(xpd=TRUE)
+var10<-c('purple',"black","yellow","green","lightblue","blue")
+legend("topright",var4,cex = 0.44,fill=var10)
+```
+
+## Including Plots
+ 
+
+```{r pressure, echo=FALSE}
+ 
+```
+
+ 
