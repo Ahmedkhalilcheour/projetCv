@@ -36,6 +36,8 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/post/" hreflang="en"/>
+    
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
@@ -102,6 +104,16 @@
     
       <loc>/publication/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/post/" hreflang="en"/>
+    
+      <loc>/post/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
     </url>
     
   
