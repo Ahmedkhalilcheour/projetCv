@@ -54,13 +54,15 @@ enableGitInfo = false
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "ahmedcheour95@gmail.com"
-  address = " Soukra residence imem 3 Tunis "
-
- 
+  email = "ahmedcheour@gmail.com"
+  address = "soukra"
+  office_hours = """
+  
   """
-  phone = "+216 23 717 011"
-   
+  phone = "23 717 011"
+  skype = ""
+  telegram = ""
+  keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
    

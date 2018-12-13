@@ -1,4 +1,4 @@
- +++
++++
 # Contact widget.
 widget = "contact"
 active = true
