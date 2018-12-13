@@ -328,7 +328,7 @@ name = "CV"
     index_name = ""
     show_logo = false
 
-# Taxonomies.
+# Taxonomies. 
 [taxonomies]
   tag = "tags"
   category = "categories"
