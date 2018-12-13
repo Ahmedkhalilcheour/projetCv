@@ -308,7 +308,7 @@ enableGitInfo = false
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[menu.main]]
     name = "CV"
-    link = "https://github.com/Oumaimalh/Projet22/blob/master/Cv_Ahmed_Khalil_Ch%C3%A9our.pdf"
+    link_url = "./Users/asus/Desktop/projetCv/static/files "
     weight = 7
 
 # Search.
