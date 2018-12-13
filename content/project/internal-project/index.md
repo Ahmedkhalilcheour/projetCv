@@ -1,19 +1,19 @@
 +++
 # Project title.
-title = " Projet Analyse de données"
+title = " Application Shiniy"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = " Etude sur la qualité des vins."
+summary = "  "
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["Deep Learning"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "https://cheourahmed.shinyapps.io/shiny/"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.

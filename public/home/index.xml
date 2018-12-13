@@ -72,8 +72,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/mark/</guid>
-      <description>R Markdownoui
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.:19.0 3rd Qu.: 56.00 ## Max. :25.0 Max. :120.00Including Plots</description>
+      <description>R Markdownoui
+## &amp;#39;data.frame&amp;#39;: 7 obs. of 2 variables:## $ Var1: Factor w/ 7 levels &amp;quot;-1&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;2&amp;quot;,&amp;quot;3&amp;quot;,..: 1 2 3 4 5 6 7## $ Freq: int 8 1393 994 555 1774 1051 214## Var1 Freq## 1 -1 8## 2 1 1393## 3 2 994## 4 3 555## 5 4 1774## 6 5 1051## 7 9 214## ## 1 2 3 4 5 9 ## 729 227 77 67 66 24## &amp;#39;data.</description>
     </item>
     
   </channel>

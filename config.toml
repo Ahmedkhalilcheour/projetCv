@@ -52,17 +52,14 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  email = "ahmedcheour@gmail.com"
+  address = " Soukra Tunis"
   office_hours = """
-  Monday 10:00 to 13:00\\
-  Wednesday 09:00 to 10:00\\
-  Otherwise email to book an appointment
+   
   """
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = "23 717 011"
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -306,10 +303,7 @@ enableGitInfo = false
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-    name = "CV"
-    link_url = "./Users/asus/Desktop/projetCv/static/files "
-    weight = 7
+ 
 
 # Search.
 [params.search]
