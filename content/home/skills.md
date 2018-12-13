@@ -44,7 +44,8 @@ weight = 7
   icon_pack = "fab"
   name = "python"
   description = "80%"
-  [[feature]]
+  
+[[feature]]
   icon = "java"
   icon_pack = "fab"
   name = "java"
